@@ -39,6 +39,9 @@ public class Base {
         driver.findElement(By.id(id)).click();
     }
 
+    public void clickByCss(String css) {
+        driver.findElement(By.cssSelector(css)).click();
+    }
 
 
 }
