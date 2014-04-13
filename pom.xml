@@ -12,6 +12,7 @@
         <module>generic</module>
         <module>cnn</module>
         <module>Amazon</module>
+
     </modules>
 
     <packaging>pom</packaging>
@@ -61,6 +62,11 @@
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-api</artifactId>
                 <version>2.41.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.9</version>
             </dependency>
 
         </dependencies>
