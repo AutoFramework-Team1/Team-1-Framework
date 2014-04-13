@@ -11,6 +11,7 @@
     <modules>
         <module>generic</module>
         <module>cnn</module>
+        <module>Amazon</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -22,12 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Amazon" />
         <module name="cnn" />
         <module name="generic" />
         <module name="myfirstFramework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.7" />
       <module name="amazon-Ammar" target="1.7" />
       <module name="cnn" target="1.7" />
       <module name="generic" target="1.7" />
