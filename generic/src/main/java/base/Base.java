@@ -1,11 +1,13 @@
 package base;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.File;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -43,5 +45,16 @@ public class Base {
         driver.findElement(By.cssSelector(css)).click();
     }
 
+    // more utility methods
 
-}
+    public void clickByTag (String tag){
+        driver.findElement(By.tagName(tag)).click();
+    }
+
+    }
+
+
+
+
+
+
