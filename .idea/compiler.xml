@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="Amazon" />
         <module name="cnn" />
+        <module name="ebay" />
         <module name="generic" />
         <module name="myfirstFramework" />
       </profile>
@@ -32,6 +33,7 @@
       <module name="Amazon" target="1.7" />
       <module name="amazon-Ammar" target="1.7" />
       <module name="cnn" target="1.7" />
+      <module name="ebay" target="1.7" />
       <module name="generic" target="1.7" />
       <module name="Team-1-Framework" target="1.7" />
     </bytecodeTargetLevel>

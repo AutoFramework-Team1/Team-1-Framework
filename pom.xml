@@ -12,6 +12,7 @@
         <module>generic</module>
         <module>cnn</module>
         <module>Amazon</module>
+        <module>ebay</module>
 
     </modules>
 
@@ -71,4 +72,26 @@
 
         </dependencies>
     </dependencyManagement>
+
+
+    <profiles>
+        <profile>
+            <id>ebay-runner</id>
+            <modules>
+                <module>ebay</module>
+                <module>generic</module>
+            </modules>
+        </profile>
+
+
+        <profile>
+            <id>cnn-news</id>
+            <modules>
+                <module>cnn</module>
+                <module>generic</module>
+            </modules>
+        </profile>
+
+    </profiles>
+
 </project>

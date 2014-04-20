@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Team-1-Framework.iml" filepath="$PROJECT_DIR$/Team-1-Framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/cnn/cnn.iml" filepath="$PROJECT_DIR$/cnn/cnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebay/ebay.iml" filepath="$PROJECT_DIR$/ebay/ebay.iml" />
       <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
     </modules>
   </component>

@@ -1,7 +1,7 @@
-package ebayhome;
+package ebayHome;
 
-import easyebay.Page;
-import org.junit.Test;
+import easyEbay.Page;
+import org.testng.annotations.Test;
 
 
 /**
@@ -11,8 +11,8 @@ public class Catalog extends Page {
 
     @Test
     public void test() {
-        navigateToUrl("http://www.ebay.com");
-        windowMaximize();
+       // navigateToUrl("http://www.ebay.com");
+//        windowMaximize();
         goToMyFeed();
         navigateBack();
         goToMyCollections();
@@ -21,7 +21,7 @@ public class Catalog extends Page {
         navigateBack();
         goToFashion();
         navigateBack();
-        goToElecronics();
+        goToElectronics();
         navigateBack();
         goToCollectiblesAndArt();
         navigateBack();
@@ -32,7 +32,9 @@ public class Catalog extends Page {
         goToToysAndHobbies();
         navigateBack();
         goToDealsAndGifts();
-        
+
     }
+
+
 
 }

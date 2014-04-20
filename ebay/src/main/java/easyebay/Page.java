@@ -1,4 +1,4 @@
-package easyebay;
+package easyEbay;
 
 import base.Base;
 
@@ -8,43 +8,57 @@ import base.Base;
 public class Page extends Base {
 
     public void goToMyFeed() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[1]/a");
+        clickByCss(".topnav tbody tr td:nth-child(1)");   }
 
-    }
+    public void goToMyFeedPage() {
+        clickByCss(".topnav tbody tr td:nth-child(1) a"); }
+
     public void goToMyCollections() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[2]/span");
+        clickByCss(".topnav tbody tr td:nth-child(2)");   }
 
-    }
+    public void goToMyCollectionsPage() {
+        clickByCss(".topnav tbody tr td:nth-child(2) a"); }
+
     public void goToMotors() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[4]/a");
+        clickByCss(".topnav tbody tr td:nth-child(4)");   }
 
-    }
+    public void goToMotorsPage() {
+        clickByCss(".topnav tbody tr td:nth-child(4) a");   }
+
     public void goToFashion() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[5]/a");
+        clickByCss(".topnav tbody tr td:nth-child(5)");     }
 
-    }
-    public void goToElecronics() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[6]/a");
+    public void goToFashionPage() {
+        clickByCss(".topnav tbody tr td:nth-child(5) a");     }
+
+    public void goToElectronics() {
+        clickByCss(".topnav tbody tr td:nth-child(6)");
+        //clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[6]/a");
 
     }
     public void goToCollectiblesAndArt() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[7]/a");
+        clickByCss(".topnav tbody tr td:nth-child(7)");
+       // clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[7]/a");
 
     }
     public void goToHomeAndGarden() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[8]/a");
+        clickByCss(".topnav tbody tr td:nth-child(8)");
+       // clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[8]/a");
 
     }
     public void goToSportingGoods() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[9]/a");
+        clickByCss(".topnav tbody tr td:nth-child(9)");
+       // clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[9]/a");
 
     }
     public void goToToysAndHobbies() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[10]/a");
+        clickByCss(".topnav tbody tr td:nth-child(10)");
+       // clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[10]/a");
 
     }
     public void goToDealsAndGifts() {
-        clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[11]/a");
+        clickByCss(".topnav tbody tr td:nth-child(11)");
+       // clickByXPath("html/body/div[3]/div/div[1]/div[1]/table/tbody/tr/td[11]/a");
 
     }
 }

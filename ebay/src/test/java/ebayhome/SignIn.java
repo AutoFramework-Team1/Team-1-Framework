@@ -1,8 +1,8 @@
-package ebayhome;
+package ebayHome;
 
 
-import easyebay.Page;
-import org.junit.Test;
+import easyEbay.Page;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 
 import javax.swing.*;
@@ -14,7 +14,7 @@ public class SignIn extends Page {
 
     @Test
     public void signInTest() {
-        navigateToUrl("http://www.ebay.com");
+       // navigateToUrl("http://www.ebay.com");
         windowMaximize();
         clickByCss("#gh-ug>a");
 
