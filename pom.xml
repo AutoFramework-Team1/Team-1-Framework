@@ -102,6 +102,20 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
         </profile>
+        <profile>
+            <id>cnn-app</id>
+            <modules>
+                <module>generic</module>
+                <module>cnn</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>ebay-app</id>
+            <modules>
+                <module>generic</module>
+                <module>cnn</module>
+            </modules>
+        </profile>
 
     </profiles>
 

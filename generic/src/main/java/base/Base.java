@@ -1,4 +1,3 @@
-
 package base;
 
 import org.openqa.selenium.By;
@@ -118,6 +117,14 @@ public class Base {
 
     public void typeById(String locator, String str){
         driver.findElement(By.id(locator)).sendKeys(str);
+    }
+
+    public void sendKeysById(String locator, String str){
+        driver.findElement(By.id(locator)).sendKeys(str);
+    }
+
+    public void sendKeysByCss(String locator, String str){
+        driver.findElement(By.cssSelector(locator)).sendKeys(str);
     }
 
     public void getTextById(String locator) {
