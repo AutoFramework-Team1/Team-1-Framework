@@ -14,23 +14,24 @@ public class Catalog extends Page {
        // navigateToUrl("http://www.ebay.com");
 //        windowMaximize();
         goToMyFeed();
-        navigateBack();
+
+
         goToMyCollections();
-        navigateBack();
+
         goToMotors();
-        navigateBack();
+
         goToFashion();
-        navigateBack();
+
         goToElectronics();
-        navigateBack();
+
         goToCollectiblesAndArt();
-        navigateBack();
+
         goToHomeAndGarden();
-        navigateBack();
+
         goToSportingGoods();
-        navigateBack();
+
         goToToysAndHobbies();
-        navigateBack();
+
         goToDealsAndGifts();
 
     }

@@ -29,12 +29,14 @@ public class SignIn extends Page {
         //Css heading    .pgHeading-l     .sd-err
 
        for(int i=0; i<99;i++) {
-           if (driver.findElements(By.cssSelector(".sd-err")).equals(true)) {
+           if (driver.findElements(By.cssSelector(".sd-lCont sd-fll")).equals(true)) {
+               driver.findElement(By.id("userid")).clear();
                String user = JOptionPane.showInputDialog("Please, enter your username");
                typeById("userid", user);
                String pass = JOptionPane.showInputDialog("Please, enter your password");
                typeById("pass", pass);
-               clickById("sgnBt");}
+               clickById("sgnBt");
+               }
            else  {
                String image = JOptionPane.showInputDialog("Please, enter the numbers  that you see in the image");
                typeById("tokenText", image);
